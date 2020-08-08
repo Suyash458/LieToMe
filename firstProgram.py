@@ -126,3 +126,4 @@ try:
         plt.show()
 except Exception as e:
     parser.exit(type(e).__name__ + ': ' + str(e))
+

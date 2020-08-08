@@ -23,3 +23,4 @@ pitch_fn = pitch("yin", 4096, 512, 44100)
 myrecording = myrecording.ravel()
 for chunk in grouper(myrecording, 512, 0.0):
     pitch_fn(np.array(chunk, dtype=np.float32))
+    
