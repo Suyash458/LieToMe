@@ -30,6 +30,7 @@ def int_or_str(text):
         return text
 
 
+
 parser = argparse.ArgumentParser(add_help=False)
 parser.add_argument(
     '-l', '--list-devices', action='store_true',
